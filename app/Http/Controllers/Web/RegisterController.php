@@ -90,6 +90,7 @@ class RegisterController extends Controller
             $org_admin['email'] = $post->email;
             $org_admin['phone'] = $post->phone;
             $org_admin['username'] = $post->username; 
+            $org_admin['role_id'] = 1; 
             $org_admin['password'] = Hash::make($post->password);
             $org_admin_id = OrganizationAdmin::create($org_admin)->id;
 

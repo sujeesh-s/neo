@@ -41,5 +41,11 @@ Route::get('/admins-list/view/{admin}', [App\Http\Controllers\Admin\AdminControl
 Route::post('/admins-list/save', [App\Http\Controllers\Admin\AdminController::class, 'adminSave']);
 Route::post('/admins-list/status', [App\Http\Controllers\Admin\AdminController::class, 'adminStatus']);
 Route::post('/admins-list/delete', [App\Http\Controllers\Admin\AdminController::class, 'adminDelete']);
+Route::get('/', [App\Http\Controllers\Organization\Auth\LoginController::class, 'index']);
+Route::get('organization/login', [App\Http\Controllers\Organization\Auth\LoginController::class, 'showAdminLoginForm'])->name('organization.login');
+Route::post('organization/login', [App\Http\Controllers\Organization\Auth\LoginController::class, 'OrgLogin']);
+Route::get('organization/logout', [App\Http\Controllers\Organization\Auth\LoginController::class, 'OrgLogout']);
+Route::get('organization/dashboard', [App\Http\Controllers\Organization\Auth\DashboardController::class, 'index']);
+
 });
 

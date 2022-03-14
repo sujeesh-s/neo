@@ -44,9 +44,9 @@ return [
             'driver' => 'session',
             'provider' => 'admins',
         ],
-        'seller' => [
+        'organization' => [
             'driver' => 'session',
-            'provider' => 'sellers',
+            'provider' => 'organization',
         ],
 
         'api' => [
@@ -82,9 +82,9 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\Admin::class,
         ],
-        'sellers' => [
+        'organization' => [
             'driver' => 'eloquent',
-            'model' => App\Models\Seller::class,
+            'model' => App\Models\Organization\OrganizationAdmin::class,
         ],
 
         // 'users' => [

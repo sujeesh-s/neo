@@ -18,8 +18,8 @@ class CreateOrgBranches extends Migration
             $table->string("branch_name");
             $table->string("desc");
             $table->integer("branch_head");
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->timestamps();
         });
     }

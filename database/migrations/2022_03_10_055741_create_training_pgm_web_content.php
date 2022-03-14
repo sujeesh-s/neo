@@ -20,8 +20,8 @@ class CreateTrainingPgmWebContent extends Migration
             $table->string("web_link");
             $table->integer("duration");
             $table->boolean("status");
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->timestamps();
         });
     }

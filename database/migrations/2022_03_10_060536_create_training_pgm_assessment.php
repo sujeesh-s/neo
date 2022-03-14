@@ -19,13 +19,13 @@ class CreateTrainingPgmAssessment extends Migration
             $table->string("assessment_name");
             $table->integer("num_of_quest");
             $table->integer("score_per_quest");
-            $table->boolean("sort_order")->default(1)->change();
+            $table->boolean("sort_order")->default(1);
             $table->integer("duration");
             $table->integer("pass_percnt");
-            $table->boolean("retakes")->default(0)->change();
-            $table->boolean("status")->default(0)->change();
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("retakes")->default(0);
+            $table->boolean("status")->default(0);
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->timestamps();
         });
     }

@@ -6,6 +6,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
+        "barryvdh/laravel-cors": "^3.0",
         "barryvdh/laravel-dompdf": "^0.9.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
@@ -38,7 +39,8 @@
         "files": [
             "app/Helpers/Helper.php",
             "app/Helpers/Api.php",
-            "app/Helpers/Access.php"
+            "app/Helpers/Access.php",
+            "app/Helpers/Organization.php"
         ]
     },
     "autoload-dev": {

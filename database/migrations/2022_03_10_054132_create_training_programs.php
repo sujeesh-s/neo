@@ -24,8 +24,8 @@ class CreateTrainingPrograms extends Migration
             $table->integer("badge");
             $table->integer("training_level");
             $table->string("applicable_for");
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->timestamps();
         });
     }

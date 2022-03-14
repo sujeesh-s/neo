@@ -14,7 +14,7 @@ class RedirectIfNotAdmin extends Middleware {
      */
     protected function redirectTo($request) {
         if (!$request->expectsJson()) {
-            return route('adminlogin');
+            return route('login');
         }
     }
 

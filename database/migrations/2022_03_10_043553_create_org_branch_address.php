@@ -25,9 +25,9 @@ class CreateOrgBranchAddress extends Migration
             $table->string("latitude");
             $table->string("longitude");
             $table->string("post_office");
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
-            $table->boolean("is_default")->default(1)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
+            $table->boolean("is_default")->default(1);
             $table->timestamps();
         });
     }

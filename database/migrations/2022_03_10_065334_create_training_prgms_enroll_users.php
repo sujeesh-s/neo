@@ -17,10 +17,10 @@ class CreateTrainingPrgmsEnrollUsers extends Migration
             $table->id();
             $table->integer("user_id");
             $table->integer("program_id");
-            $table->boolean('is_completed')->default(0)->change();
+            $table->boolean('is_completed')->default(0);
             $table->integer("user_role");
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->integer("created_by")->nullable();
             $table->integer("updated_by")->nullable();
             $table->timestamps();

@@ -27,8 +27,8 @@ class CreateOrgAdmin extends Migration
             $table->integer("department_id");
             $table->string("job_title")->nullable();
             $table->string("avatar")->nullable();
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->timestamps();
         });
     }

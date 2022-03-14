@@ -19,14 +19,20 @@ class RedirectIfAuthenticated
      */
     public function handle(Request $request, Closure $next, ...$guards)
     {
+        header("Access-Control-Allow-Origin: *");
+$headers = [
+'Access-Control-Allow-Methods' => 'POST,GET,OPTIONS,PUT,DELETE',
+'Access-Control-Allow-Headers' => 'Content-Type, X-Auth-Token, Origin, Authorization',
+];
+
         $guards = empty($guards) ? [null] : $guards;
 
         foreach ($guards as $guard) {
             if ($guard == "admin" && Auth::guard($guard)->check()) {
                 return redirect('/admin/dashboard');
             }
-            if ($guard == "seller" && Auth::guard($guard)->check()) {
-                return redirect('/seller');
+            if ($guard == "organization" && Auth::guard($guard)->check()) {
+                return redirect('/organization/dashboard');
             }
             if (Auth::guard($guard)->check()) {
                 return redirect('/home');

@@ -24,8 +24,8 @@ class CreatePackages extends Migration
             $table->integer("bill_mode");
             $table->integer("created_by")->nullable();
             $table->integer("updated_by")->nullable();
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->timestamps();
         });
     }

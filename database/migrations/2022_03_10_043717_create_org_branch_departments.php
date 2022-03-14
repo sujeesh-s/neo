@@ -18,8 +18,8 @@ class CreateOrgBranchDepartments extends Migration
             $table->integer("branch_id");
             $table->string("name");
             $table->integer("head");
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->timestamps();
         });
     }

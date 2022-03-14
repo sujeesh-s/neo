@@ -1,0 +1,494 @@
+.page-style1::before {
+  background: #f7fbff;
+}
+
+.app-content .side-app {
+  background: #f5f8fc;
+}
+
+.side-menu__item.active, .side-menu__item:hover, .side-menu__item:focus {
+  background: #094d99;
+  color: #fff;
+}
+
+.nav-link.icon .header-icon {
+  background: #094d99;
+  box-shadow: inset 0 0 4px #002a59;
+  border: 0px solid #ebecf1;
+}
+
+.header-icon {
+  fill: #fff;
+}
+
+.card-custom-icon {
+  right: 0;
+  top: 52px;
+  left: 20px;
+}
+
+.text-primary {
+  color: #24476d !important;
+}
+
+.text-warning {
+  color: #1d9909 !important;
+}
+
+.text-success {
+  color: #6babeb !important;
+}
+
+.text-secondary {
+  color: #099990 !important;
+}
+
+.side-menu__item {
+  color: #094d99;
+}
+
+.btn-info {
+  background-color: #3a71ad;
+  border-color: #3a71ad;
+}
+
+.btn-info:hover {
+  background-color: #2f5b8a;
+  border-color: #2f5b8a;
+}
+
+#graps .card-body{
+  height: 390px;
+}
+
+/** Login 4 start **/
+.login-4 .login-inner-form {
+  color: #cccccc;
+  position: relative;
+}
+
+.login-4 a {
+  text-decoration: none;
+}
+
+.login-4 .bg-color-10 {
+  min-height: 100vh;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px;
+}
+
+.login-4 .form-check-input:checked {
+  display: none;
+}
+
+.login-4 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Jost', sans-serif;
+}
+
+.login-4 .form-section {
+  max-width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  transition: all 0.9s;
+  z-index: 1;
+}
+
+.login-4 .form-box {
+  width: 100%;
+  text-align: center;
+}
+
+.login-4 .login-inner-form .form-group {
+  margin-bottom: 25px;
+}
+
+.login-4 .login-inner-form .form-box {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.login-4 .login-inner-form .form-control {
+  font-size: 12px;
+  outline: none;
+  color: #094d99;
+  font-weight: 400;
+  border: 0px solid transparent;
+  background: #fff;
+  box-shadow: inset 0 0 10px #dbdbdb;
+  padding: 14.5px 45px 14.5px 20px;
+  border-radius: 50px;
+  height: 55px;
+}
+
+.login-4 .login-inner-form img {
+  margin-bottom: 5px;
+  height: 40px;
+}
+
+.login-4 .login-inner-form .form-box i {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  font-size: 20px;
+  color: #616161;
+}
+
+.login-4 .login-inner-form label {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.login-4 .login-inner-form .forgot {
+  margin: 0;
+  line-height: 45px;
+  color: #535353;
+  font-size: 15px;
+  float: right;
+}
+
+.login-4 .bg-img {
+  background: rgba(0, 0, 0, 0.04) url(../images/login-bg.jpg) top left repeat;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  opacity: 1;
+  z-index: 999;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.login-4 .bg-img::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(17 30 183 / 45%);
+}
+
+.login-4 .info{
+  max-width: 1000px;
+  margin: 0 auto;
+  z-index: 999;
+}
+
+.login-4 .info h1 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.login-4 .info h1 span{
+  font-weight: 300;
+}
+
+.login-4 .info {
+  text-align: left;
+}
+
+.login-4 .info p {
+  margin-bottom: 0;
+  color: #fff;
+  opacity: 0.9;
+  line-height: 28px;
+}
+
+.login-4 .login-inner-form .btn-md {
+  cursor: pointer;
+  height: 55px;
+  color: #fff;
+  padding: 15.5px 50px 14.5px 50px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Jost', sans-serif;
+  border-radius: 50px;
+  text-transform: uppercase;
+}
+
+.login-4 .login-inner-form input[type=checkbox], input[type=radio] {
+  margin-right: 3px;
+}
+
+.login-4 .login-inner-form p {
+  margin: 0;
+  color: #616161;
+}
+
+.login-4 .login-inner-form p a {
+  color: #616161;
+}
+
+.login-4 .login-inner-form button:focus {
+  outline: none;
+  outline: 0 auto -webkit-focus-ring-color;
+}
+
+.login-4 .login-inner-form .btn-theme.focus, .btn-theme:focus {
+  box-shadow: none;
+}
+
+.login-4 .login-inner-form .btn-theme {
+  background: #f4f9fe;
+  border: none;
+  color: #094d99;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-4 .login-inner-form .btn-theme:hover {
+  background: #094d99;
+  color: #fff;
+}
+
+.login-4 .logo img {
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.login-4 .nav-pills li {
+  display: inline-block;
+}
+
+.login-4 .login-inner-form .checkbox {
+  margin-bottom: 25px;
+  font-size: 14px;
+}
+
+.login-4 .login-inner-form .form-check {
+  float: left;
+  margin-bottom: 0;
+  padding-left: 2px;
+}
+
+.login-4 .login-inner-form .form-check a {
+  color: #d6d6d6;
+  float: right;
+}
+
+.login-4 .login-inner-form .form-check-input {
+  display: none;
+}
+
+.login-4 .login-inner-form .form-check label::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  top: 2px;
+  margin-left: -25px;
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-4 .login-inner-form .form-check-label {
+  padding-left: 25px;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #094d99;
+  font-weight: 400;
+}
+
+.login-4 .login-inner-form .checkbox-theme input[type="checkbox"]:checked + label::before {
+  color: #fff;
+  background: #0f96f9;
+
+}
+
+.login-4 .login-inner-form input[type=checkbox]:checked + label:before {
+  font-weight: 600;
+  color: #fff;
+  line-height: 15px;
+  font-size: 9px;
+  content: "\2713";
+}
+
+.login-4 .login-inner-form input[type=checkbox], input[type=radio] {
+  margin-top: 4px;
+}
+
+.login-4 .login-inner-form .checkbox a {
+  font-size: 12px;
+  color: #094d99;
+  float: right;
+  margin-left: 3px;
+}
+
+.login-4 .form-section h3 {
+  font-size: 15px;
+  margin-bottom: 40px;
+  font-weight: 500;
+  color: #094d99;
+}
+
+.login-4 .form-section p {
+  margin: 25px 0 0;
+  font-size: 12px;
+  color: #616161;
+}
+
+.login-4 .form-section p a {
+  color: #616161;
+}
+
+.login-4 .form-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.login-4 .form-section .social-list li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.login-4 .form-section .social-list li a {
+  font-size: 13px;
+  font-weight: 600;
+  width: 120px;
+  margin: 2px 0 3px 0;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-4 .form-section .social-list li a i {
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  float: left;
+  color: #fff;
+  border-radius: 20px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  font-size: 15px;
+}
+
+.login-4 .form-section:hover .social-list li a i{
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.login-4 .form-section .social-list li a span {
+  margin-right: 7px;
+}
+
+.login-4 .form-section .extra-login {
+  float: left;
+  width: 100%;
+  margin: 20px 0 25px;
+  text-align: center;
+  position: relative;
+}
+
+.login-4 .form-section .extra-login::before {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 100%;
+  height: 1px;
+  background: #d8dcdc;
+  content: "";
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: 'Jost', sans-serif;
+}
+
+.login-4 .form-section .extra-login > span {
+  width: auto;
+  float: none;
+  display: inline-block;
+  background: #fff;
+  padding: 1px 20px;
+  z-index: 1;
+  position: relative;
+  font-family: Open Sans;
+  font-size: 13px;
+  color: #616161;
+  text-transform: capitalize;
+}
+
+.login-4 .facebook-i {
+  background: #4867aa;
+  color: #fff;
+}
+
+.login-4 .twitter-i {
+  background: #33CCFF;
+  color: #fff;
+}
+
+.login-4 .google-i {
+  background: #db4437;
+  color: #fff;
+}
+
+.login-4 .facebook-color {
+  color: #4867aa;
+}
+
+.login-4 .twitter-color {
+  color: #33CCFF;
+}
+
+.login-4 .google-color {
+  color: #db4437;
+}
+
+.login-inner-form .form-control::placeholder {
+  color: #094d99;
+}
+
+/** MEDIA **/
+@media (max-width: 1200px) {
+  .login-4 .info h1 {
+      font-size: 45px;
+  }
+}
+
+@media (max-width: 992px) {
+  .login-4 .none-992 {
+      display: none;
+  }
+}
+/** Login 4 end **/
+
+.dataTables_filter
+{
+  float: left;
+  margin-left: 30px;
+}
+.dataTables_length
+{
+  float: left;
+}
+.dt-buttons.btn-group
+{
+  float: right;
+}

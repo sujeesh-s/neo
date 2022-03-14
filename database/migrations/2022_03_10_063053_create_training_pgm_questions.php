@@ -20,8 +20,8 @@ class CreateTrainingPgmQuestions extends Migration
             $table->string("desc");
             $table->text("answer")->collation('utf16_general_ci')->nullable();
             $table->integer("score");
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->integer("created_by")->nullable();
             $table->integer("updated_by")->nullable();
             $table->timestamps();

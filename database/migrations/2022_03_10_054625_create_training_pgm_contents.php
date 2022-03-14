@@ -18,8 +18,8 @@ class CreateTrainingPgmContents extends Migration
             $table->integer("program_id");
             $table->integer("program_type_id");
             $table->integer("content_id");
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->timestamps();
         });
     }

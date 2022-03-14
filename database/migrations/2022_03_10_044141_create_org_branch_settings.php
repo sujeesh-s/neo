@@ -16,12 +16,12 @@ class CreateOrgBranchSettings extends Migration
         Schema::create('org_branch_settings', function (Blueprint $table) {
             $table->id();
             $table->integer("branch_id");
-            $table->boolean("contractors")->default(0)->change();
+            $table->boolean("contractors")->default(0);
             $table->integer("contractor_category");
-            $table->boolean("sub_contractors")->default(0)->change();
+            $table->boolean("sub_contractors")->default(0);
             $table->integer("sub_contractor_category");
-            $table->boolean("is_active")->default(1)->change();
-            $table->boolean("is_deleted")->default(0)->change();
+            $table->boolean("is_active")->default(1);
+            $table->boolean("is_deleted")->default(0);
             $table->timestamps();
         });
     }
